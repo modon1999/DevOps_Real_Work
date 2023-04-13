@@ -1,0 +1,8 @@
+---
+# defaults file for install_keycloak
+db_user                : keycloak
+db_user_passwd         : roo6peeW
+db_name                : keycloak
+http_port              : 8081
+keycloak_admin_user    : admin2023
+keycloak_admin_password: roo6peeW
