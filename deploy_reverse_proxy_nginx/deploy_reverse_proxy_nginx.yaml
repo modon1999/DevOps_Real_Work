@@ -1,0 +1,12 @@
+---
+- name: Install Postgresql-14
+  hosts: keycloak
+  become: yes
+  roles:
+    - create_cert_for_subdomain
+
+- name: Prepar Postgre DB for Keyclok
+  hosts: keycloak
+  become: yes
+  roles:
+    - install_reverse_proxy_nginx

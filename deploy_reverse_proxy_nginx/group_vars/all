@@ -1,0 +1,8 @@
+---
+email: modon19@yandex.ru
+domain: dev-ai-melanoma.ru
+list_service:
+  - service: "app2"
+    ips: ["localhost:8080"]
+  - service: "app1"
+    ips: ["localhost:8081"]

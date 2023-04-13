@@ -1,0 +1,10 @@
+---
+# defaults file for install_reverse_proxy_nginx
+domain: modon.com
+list_service:
+  - service: "tomcat"
+    ips: ["192.168.59.12:8080"]
+  - service: "apache"
+    ips: ["192.168.59.13:80"]
+  - service: "nginx"
+    ips: ["192.168.59.11:80"]
